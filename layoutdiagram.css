@@ -1,0 +1,17 @@
+/* xxxxx */
+*img {
+  max-width: 100%;
+  height: auto;
+}
+/* ------------------------------------------ */
+.grid_1-1 {
+  display: grid;
+  gap: 20px;
+}
+
+@media (width >= 600px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
